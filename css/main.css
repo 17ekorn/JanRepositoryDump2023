@@ -2,3 +2,13 @@
 html{
     scroll-behavior:smooth
 }
+
+body{
+    color: purple
+    font-family: 'Inconsolata', monospace;
+    /*font-family: 'Jost', sans-serif;
+    font-family: 'Playfair Display', serif;*/
+    h1{
+        font-family: 'Inconsolata', monospace;
+    }
+}
