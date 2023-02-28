@@ -7,7 +7,27 @@ body{
     color: purple;
     font-family: 'Inconsolata', monospace;
 }
+    .tom-and-jerry-wrapper {
+        max-width: 800px;
+        margin: 0 auto;
+        border: 1px solid #999;
+        border-radius: 12px;
+        padding: 12px 24px;
+    }
     
+    .tom-and-jerry-enter-image {
+        text-align: center;
+    }
+    
+    .tom-and-jerry-ups-image {
+    
+    }
+  
+  .tom-and-jerry-ups-image img {
+    border: 4px solid red;
+    padding: 20px;
+    margin: 20px;
+  }
     h1,
     h2,
     h3,
@@ -33,7 +53,7 @@ body{
         background-color:antiquewhite; 
     }
 
-    /* homepage */
+    /* homepage 
     div {
         max-width: 700px;
         margin: 0 auto;
@@ -41,15 +61,39 @@ body{
         border-radius: 12px;
         padding: 12px 24px;
      }
+     */
 
     span {
         color: #00c200;
     }
+    
     p{
         color: red
     }
 
+    .val{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-    .tom-and-jerry-centered{
+    .val-featured-img{
+        min-height: 300px;
+        
+    }
+    .val-intro{
+        background-color:pink;
         text-align: center;
+    }
+
+    
+
+    .val-smaller-image{
+        width: 12%;
+    }
+
+    .val-row-3-tile{
+        display:flex;
+        justify-content: center;
+        gap: 20px;
     }
